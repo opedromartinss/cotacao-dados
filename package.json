@@ -1,0 +1,17 @@
+{
+    "name": "cotacao-dados",
+    "version": "1.0.0",
+    "description": "Sistema automático de cotações de café e cacau",
+    "main": "fetch-prices.js",
+    "scripts": {
+          "fetch": "node fetch-prices.js",
+          "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+          "axios": "^1.6.0",
+          "cheerio": "^1.0.0-rc.12"
+    },
+    "keywords": ["cotacao", "cafe", "cacau", "commodities"],
+    "author": "Sistema Automático",
+    "license": "MIT"
+}
